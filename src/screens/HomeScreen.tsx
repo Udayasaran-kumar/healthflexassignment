@@ -192,7 +192,7 @@ const HomeScreen = () => {
         renderItem={({ item, section }) => {
           if (collapsedCategories[section.title]) return null;
           return (
-            <TimerCard
+            <TimerCard style={styles.text}
               timer={item}
               onStart={() => startTimer(item.id)}
               onPause={() => pauseTimer(item.id)}
@@ -226,6 +226,10 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 18,
     fontWeight: 'bold',
+    color:'rgba(10, 9, 9, 0.8)'
+  },
+  text:{
+    color:'rgba(10, 9, 9, 0.8)'
   },
   buttonGroup: {
     flexDirection: 'row',

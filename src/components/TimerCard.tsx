@@ -129,14 +129,17 @@ const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 10,
     elevation: 2,
+    
   },
   name: {
     fontSize: 20,
     fontWeight: 'bold',
+    color:'rgba(10, 9, 9, 0.8)'
   },
   time: {
     fontSize: 18,
     marginVertical: 6,
+    color:'rgba(10, 9, 9, 0.8)'
   },
   status: {
     fontSize: 14,

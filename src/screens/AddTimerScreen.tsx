@@ -145,6 +145,7 @@ const styles = StyleSheet.create({
   label: {
     fontSize: 16,
     marginTop: 12,
+    color:'rgba(10, 9, 9, 0.8)'
   },
   input: {
     borderWidth: 1,
@@ -152,6 +153,7 @@ const styles = StyleSheet.create({
     padding: 8,
     marginTop: 4,
     borderRadius: 4,
+    color:'rgba(10, 9, 9, 0.8)'
   },
 });
 

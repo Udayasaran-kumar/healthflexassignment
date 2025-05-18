@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: 'bold',
     marginBottom: 12,
+    color:'rgba(10, 9, 9, 0.8)'
   },
   item: {
     backgroundColor: '#eee',
@@ -92,6 +93,7 @@ const styles = StyleSheet.create({
   },
   name: {
     fontSize: 18,
+    color:'rgba(10, 9, 9, 0.8)'
   },
   detail: {
     fontSize: 14,
